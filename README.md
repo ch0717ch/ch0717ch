@@ -148,7 +148,7 @@
 
 ### 3D 기여 그래프
 
-<img src="https://raw.githubusercontent.com/ch0717ch/ch0717ch/main/profile-3d-contrib/gold.svg" alt="3D 기여 그래프" width="90%" />
+<img src="https://raw.githubusercontent.com/ch0717ch/ch0717ch/main/profile-3d-contrib/profile-night-view.svg" alt="3D 기여 그래프" width="90%" />
 
 <br/>
 
