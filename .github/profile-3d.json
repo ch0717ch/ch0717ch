@@ -1,6 +1,6 @@
 {
-  "$comment": "3D 잔디 색상. 프로필 전체의 블랙·골드 톤에 맞춘다.",
-  "type": "season",
+  "$comment": "3D 잔디 색상. 프로필 전체의 블랙·골드 톤에 맞춘다. season 은 사계절 4벌을 요구하므로 고정 팔레트인 normal 을 쓴다.",
+  "type": "normal",
   "settings": [
     {
       "fileName": "gold.svg",
