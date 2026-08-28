@@ -148,7 +148,7 @@
 
 ### 3D 기여 그래프
 
-<img src="https://raw.githubusercontent.com/ch0717ch/ch0717ch/main/profile-3d-contrib/profile-night-view.svg" alt="3D 기여 그래프" width="90%" />
+<img src="https://raw.githubusercontent.com/ch0717ch/ch0717ch/main/profile-3d-contrib/profile-season-animate.svg" alt="3D 기여 그래프 (애니메이션)" width="92%" />
 
 <br/>
 
@@ -158,14 +158,14 @@
 
 <br/>
 
-### 언어 · 활동 · 습관
-
-<img src="https://raw.githubusercontent.com/ch0717ch/ch0717ch/main/metrics/languages.svg" alt="주로 쓰는 언어" width="46%" />
-<img src="https://raw.githubusercontent.com/ch0717ch/ch0717ch/main/metrics/habits.svg" alt="커밋 습관" width="46%" />
+![바다를 헤엄치는 뱀](https://raw.githubusercontent.com/ch0717ch/ch0717ch/output/ocean.gif)
 
 <br/>
 
-<img src="https://raw.githubusercontent.com/ch0717ch/ch0717ch/main/metrics/activity.svg" alt="최근 활동" width="70%" />
+### 다른 각도로 본 기여
+
+<img src="https://raw.githubusercontent.com/ch0717ch/ch0717ch/main/profile-3d-contrib/profile-night-view.svg" alt="야경 스타일" width="46%" />
+<img src="https://raw.githubusercontent.com/ch0717ch/ch0717ch/main/profile-3d-contrib/profile-gitblock.svg" alt="깃블록 스타일" width="46%" />
 
 <br/>
 
