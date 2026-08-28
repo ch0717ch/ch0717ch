@@ -84,7 +84,7 @@
 
 <div align="center">
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=ch0717ch&hide_border=true&background=0B0B0C&border=C9A227&stroke=C9A227&ring=C9A227&fire=E6C977&currStreakLabel=C9A227&sideLabels=F6F4F0&currStreakNum=F6F4F0&sideNums=F6F4F0&dates=8F8C88" alt="" />
+<img src="https://streak-stats.demolab.com/?user=ch0717ch&hide_border=true&background=0B0B0C&border=C9A227&stroke=C9A227&ring=C9A227&fire=E6C977&currStreakLabel=C9A227&sideLabels=F6F4F0&currStreakNum=F6F4F0&sideNums=F6F4F0&dates=8F8C88" alt="연속 기여 기록" />
 
 <br/><br/>
 
