@@ -63,14 +63,14 @@
 
 ---
 
-## 통계
+## 저장소 현황
 
-<div align="center">
-
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=ch0717ch&show_icons=true&hide_border=true&bg_color=0B0B0C&title_color=C9A227&icon_color=C9A227&text_color=F6F4F0&include_all_commits=true" alt="GitHub 통계" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ch0717ch&layout=compact&hide_border=true&bg_color=0B0B0C&title_color=C9A227&text_color=F6F4F0&langs_count=8" alt="주요 언어" />
-
-</div>
+| 프로젝트 | 최근 작업 | 주 언어 | 크기 |
+| --- | --- | --- | --- |
+| fki-survey | ![](https://img.shields.io/github/last-commit/ch0717ch/fki-survey?style=flat-square&label=&color=C9A227) | ![](https://img.shields.io/github/languages/top/ch0717ch/fki-survey?style=flat-square&label=&color=0B0B0C) | ![](https://img.shields.io/github/repo-size/ch0717ch/fki-survey?style=flat-square&label=&color=555) |
+| chaeheon-wiki | ![](https://img.shields.io/github/last-commit/ch0717ch/chaeheon-wiki?style=flat-square&label=&color=C9A227) | ![](https://img.shields.io/github/languages/top/ch0717ch/chaeheon-wiki?style=flat-square&label=&color=0B0B0C) | ![](https://img.shields.io/github/repo-size/ch0717ch/chaeheon-wiki?style=flat-square&label=&color=555) |
+| company-data-update-automation | ![](https://img.shields.io/github/last-commit/ch0717ch/company-data-update-automation?style=flat-square&label=&color=C9A227) | ![](https://img.shields.io/github/languages/top/ch0717ch/company-data-update-automation?style=flat-square&label=&color=0B0B0C) | ![](https://img.shields.io/github/repo-size/ch0717ch/company-data-update-automation?style=flat-square&label=&color=555) |
+| kutis-timetable-app | ![](https://img.shields.io/github/last-commit/ch0717ch/kutis-timetable-app?style=flat-square&label=&color=C9A227) | ![](https://img.shields.io/github/languages/top/ch0717ch/kutis-timetable-app?style=flat-square&label=&color=0B0B0C) | ![](https://img.shields.io/github/repo-size/ch0717ch/kutis-timetable-app?style=flat-square&label=&color=555) |
 
 ---
 
