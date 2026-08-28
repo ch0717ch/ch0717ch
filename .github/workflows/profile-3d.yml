@@ -1,0 +1,39 @@
+name: 3D 잔디 생성
+
+# 기여 그래프를 입체 블록으로 렌더링한 SVG 를 만들어 profile-3d-contrib/ 에 커밋한다.
+# 뱀·메트릭과 마찬가지로 이 저장소 안에서 생성되므로 외부 서비스 장애와 무관하다.
+
+on:
+  schedule:
+    # 매일 00:50 UTC (한국 시간 09:50)
+    - cron: '50 0 * * *'
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: 3D 기여 그래프 생성
+        uses: yoshi389111/github-profile-3d-contrib@0.7.1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: ${{ github.repository_owner }}
+          # 시즌 테마 대신 고정 팔레트를 쓰면 프로필 톤이 흔들리지 않는다
+          SETTING_JSON: .github/profile-3d.json
+
+      - name: 결과 커밋
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A profile-3d-contrib
+          git diff --staged --quiet || git commit -m "3D 잔디 갱신"
+          git push
