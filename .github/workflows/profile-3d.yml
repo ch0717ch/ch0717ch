@@ -27,8 +27,10 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USERNAME: ${{ github.repository_owner }}
-          # 시즌 테마 대신 고정 팔레트를 쓰면 프로필 톤이 흔들리지 않는다
-          SETTING_JSON: .github/profile-3d.json
+          # 커스텀 팔레트(SETTING_JSON)는 쓰지 않는다.
+          # 색상 키 스키마가 문서화되어 있지 않아 season / normal 양쪽 모두
+          # addColor 단계에서 undefined 참조로 실패했다.
+          # 기본 테마가 다크 계열 여러 벌을 만들어 주므로 그중 하나를 쓴다.
 
       - name: 결과 커밋
         run: |
