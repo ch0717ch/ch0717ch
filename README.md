@@ -84,13 +84,15 @@
 
 <div align="center">
 
-<img src="https://streak-stats.demolab.com/?user=ch0717ch&hide_border=true&background=0B0B0C&border=C9A227&stroke=C9A227&ring=C9A227&fire=E6C977&currStreakLabel=C9A227&sideLabels=F6F4F0&currStreakNum=F6F4F0&sideNums=F6F4F0&dates=8F8C88" alt="연속 기여 기록" />
+<img src="https://img.shields.io/github/followers/ch0717ch?style=for-the-badge&color=C9A227&labelColor=0B0B0C&logo=github" alt="팔로워" />
+<img src="https://img.shields.io/github/stars/ch0717ch?style=for-the-badge&color=C9A227&labelColor=0B0B0C&logo=github" alt="받은 스타" />
+<img src="https://img.shields.io/badge/GitHub_since-2019.12-C9A227?style=for-the-badge&labelColor=0B0B0C&logo=github" alt="가입 시점" />
 
 <br/><br/>
 
-![](https://raw.githubusercontent.com/ch0717ch/ch0717ch/output/github-snake-dark.svg)
+![잔디를 먹고 다니는 뱀](https://raw.githubusercontent.com/ch0717ch/ch0717ch/output/github-snake-dark.svg)
 
-<sub>잔디를 먹고 다니는 뱀. 매일 자동으로 다시 그려집니다.</sub>
+<sub>기여 그래프를 먹고 다니는 뱀. 매일 09:30 에 자동으로 다시 그려집니다.</sub>
 
 </div>
 
