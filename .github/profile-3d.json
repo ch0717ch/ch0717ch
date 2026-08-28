@@ -1,0 +1,22 @@
+{
+  "$comment": "3D 잔디 색상. 프로필 전체의 블랙·골드 톤에 맞춘다.",
+  "type": "season",
+  "settings": [
+    {
+      "fileName": "gold.svg",
+      "backgroundColor": "#0B0B0C",
+      "foregroundColor": "#F6F4F0",
+      "strongColor": "#E6C977",
+      "weakColor": "#8F8C88",
+      "growingAnimation": true,
+      "contribLessColor": "#1B1B1F",
+      "contribMoreColor": "#E6C977",
+      "gridColor": "#26262B",
+      "dayNameColor": "#8F8C88",
+      "monthNameColor": "#C9A227",
+      "radarColor": "#C9A227",
+      "radarLineColor": "#8A6D14",
+      "radarWeekColor": "#C9A227"
+    }
+  ]
+}

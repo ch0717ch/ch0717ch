@@ -1,0 +1,91 @@
+name: 메트릭 대시보드 생성
+
+# 언어 통계 / 활동 내역 / 커밋 시간대를 SVG 로 만들어 이 저장소에 커밋한다.
+# 남의 이미지 서버에 의존하지 않으므로 서비스 장애로 깨지지 않는다.
+#
+# GITHUB_TOKEN 만으로 동작한다. 별도 PAT 를 만들 필요가 없다.
+# (PAT 를 넣으면 비공개 저장소 통계까지 집계할 수 있지만, 없어도 공개 기준으로 잘 나온다)
+
+on:
+  schedule:
+    # 매일 00:40 UTC (한국 시간 09:40)
+    - cron: '40 0 * * *'
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  # 1) 종합 카드 — 언어 비중, 최근 활동, 계산된 지표
+  overview:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          user: ch0717ch
+          filename: metrics/overview.svg
+          committer_branch: main
+          base: header, repositories
+          config_timezone: Asia/Seoul
+          config_output: svg
+          # 프로필의 블랙·골드 톤에 맞춘 커스텀 색
+          config_display: large
+
+  # 2) 언어 비중 — 실제로 쓴 코드 기준
+  languages:
+    runs-on: ubuntu-latest
+    needs: overview
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          user: ch0717ch
+          filename: metrics/languages.svg
+          committer_branch: main
+          base: ''
+          config_timezone: Asia/Seoul
+          plugin_languages: yes
+          plugin_languages_details: bytes-size, percentage
+          plugin_languages_limit: 8
+          plugin_languages_sections: most-used
+
+  # 3) 활동 습관 — 주로 언제 커밋하는지
+  habits:
+    runs-on: ubuntu-latest
+    needs: languages
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          user: ch0717ch
+          filename: metrics/habits.svg
+          committer_branch: main
+          base: ''
+          config_timezone: Asia/Seoul
+          plugin_habits: yes
+          plugin_habits_from: 200
+          plugin_habits_days: 14
+          plugin_habits_charts: yes
+          plugin_habits_trim: yes
+
+  # 4) 활동 발자취 — 최근에 무슨 일을 했는지
+  activity:
+    runs-on: ubuntu-latest
+    needs: habits
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          user: ch0717ch
+          filename: metrics/activity.svg
+          committer_branch: main
+          base: ''
+          config_timezone: Asia/Seoul
+          plugin_activity: yes
+          plugin_activity_limit: 5
+          plugin_activity_days: 14
+          plugin_activity_filter: issue, pr, release, push
