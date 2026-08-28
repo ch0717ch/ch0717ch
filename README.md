@@ -1,8 +1,10 @@
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0B0B0C,60:8A6D14,100:C9A227&height=200&section=header&text=Chaeheon%20%C2%B7%20Eddie&fontSize=48&fontColor=F6F4F0&fontAlignY=36&desc=Build%20the%20tool%20before%20you%20suffer%20twice&descSize=15&descAlignY=56&animation=fadeIn" alt="" />
+
 <div align="center">
 
-# 채헌 · Eddie
+<img src="https://readme-typing-svg.herokuapp.com?font=Noto+Sans+KR&weight=600&size=22&pause=1200&color=C9A227&center=true&vCenter=true&width=520&height=45&lines=%EB%B6%88%ED%8E%B8%ED%95%9C%20%EA%B1%B8%20%EB%B0%9C%EA%B2%AC%ED%95%98%EB%A9%B4%20%EB%8F%84%EA%B5%AC%EB%B6%80%ED%84%B0%20%EB%A7%8C%EB%93%AD%EB%8B%88%EB%8B%A4;%EB%8D%B0%EB%AA%A8%EB%A1%9C%20%EB%81%9D%EB%82%B4%EC%A7%80%20%EC%95%8A%EC%8A%B5%EB%8B%88%EB%8B%A4;%EC%99%9C%20%EA%B7%B8%EB%A0%87%EA%B2%8C%20%EB%A7%8C%EB%93%A4%EC%97%88%EB%8A%94%EC%A7%80%20%EC%A0%81%EC%96%B4%EB%91%A1%EB%8B%88%EB%8B%A4" alt="" />
 
-**불편한 걸 발견하면 도구부터 만듭니다.**
+<br/>
 
 경기대학교 재학 중입니다.<br/>
 학교에서든 인턴에서든, 반복되는 일을 코드로 걷어내는 게 재밌어서 계속 만들고 있습니다.
@@ -12,6 +14,8 @@
 [![Blog](https://img.shields.io/badge/Blog-03C75A?style=for-the-badge&logo=naver&logoColor=white)](https://blog.naver.com/co0717gjs)
 [![Wiki](https://img.shields.io/badge/채헌위키-C9A227?style=for-the-badge&logo=readthedocs&logoColor=0B0B0C)](https://chaeheon-wiki.co0717gjs.workers.dev)
 [![Email](https://img.shields.io/badge/Email-0B0B0C?style=for-the-badge&logo=maildotru&logoColor=C9A227)](mailto:co0717gjs@naver.com)
+
+<img src="https://komarev.com/ghpvc/?username=ch0717ch&label=Profile%20views&color=C9A227&style=flat-square" alt="" />
 
 </div>
 
@@ -29,27 +33,28 @@
 
 ## 기술 스택
 
-**주로 쓰는 것**
+<div align="center">
 
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-5FA04E?style=flat-square&logo=nodedotjs&logoColor=white)
+<img src="https://skillicons.dev/icons?i=ts,js,python,nextjs,nodejs,tailwind&theme=dark" alt="" />
+<br/>
+<img src="https://skillicons.dev/icons?i=supabase,postgres,sqlite,cloudflare,fastapi,git&theme=dark" alt="" />
 
-**데이터 · 인프라**
+</div>
 
-![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=flat-square&logo=cloudflare&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
+<details>
+<summary><b>어디에 무엇을 쓰는지</b></summary>
 
-**도구**
+<br/>
 
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
-![Claude](https://img.shields.io/badge/Claude_Code-D97757?style=flat-square&logo=anthropic&logoColor=white)
+| 영역 | 쓰는 것 | 어디에 썼나 |
+| --- | --- | --- |
+| 웹 프런트 | `Next.js 15` `TypeScript` `Tailwind CSS v4` | 채헌위키 |
+| 웹 백엔드 | `Cloudflare Workers` `Pages Functions` `Node.js` | 채헌위키, 설문 플랫폼 |
+| 데이터 | `Supabase` `PostgreSQL` `SQLite` | 전 프로젝트 |
+| 자동화 | `Python` `FastAPI` | 기업 데이터 갱신 도구 |
+| 수집·정규화 | `JavaScript` `DevTools Console` | KUTIS 시간표 파이프라인 |
+
+</details>
 
 ---
 
@@ -75,6 +80,24 @@
 
 ---
 
+## 기록
+
+<div align="center">
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=ch0717ch&hide_border=true&background=0B0B0C&border=C9A227&stroke=C9A227&ring=C9A227&fire=E6C977&currStreakLabel=C9A227&sideLabels=F6F4F0&currStreakNum=F6F4F0&sideNums=F6F4F0&dates=8F8C88" alt="" />
+
+<br/><br/>
+
+![](https://raw.githubusercontent.com/ch0717ch/ch0717ch/output/github-snake-dark.svg)
+
+<sub>잔디를 먹고 다니는 뱀. 매일 자동으로 다시 그려집니다.</sub>
+
+</div>
+
+---
+
 <div align="center">
 <sub>직접 쓰려고 만든 것들입니다. 굴려보고 고친 것만 올립니다.</sub>
 </div>
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:C9A227,40:8A6D14,100:0B0B0C&height=120&section=footer" alt="" />
